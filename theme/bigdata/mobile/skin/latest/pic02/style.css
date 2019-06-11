@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* 최근게시물 스킨 (latest) */
+.pic2 {position:relative}
+.pic2 .lt_title {line-height: 65px;padding: 0 25px;;border-bottom:1px solid #e8e8e8;font-size: 1.154em;display:block}
+.pic2 .more {display: inline-block;padding: 0 23px;text-decoration: none;color: #c8c5c3;position: absolute; top: 0;right: 0; line-height: 65px;font-size:18px}
+.pic2 ul:after {display:block;visibility:hidden;clear:both;content:""}
+.pic2 li{position:relative;border-top:1px solid #f2f2f2;padding:20px;padding-left:120px;line-height:30px}
+.pic2 li:first-child{border:0}
+.pic2 li:hover{background:#f9fbfc}
+.pic2 li .lt_img{position:absolute;top:15px;left:15px;text-align:center}
+.pic2 li .lt_img img{height:auto;width:90px}
+.pic2 li .lt_tit{display:block;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;font-size:1.077em;}
+.pic2 li .lt_tit:hover{color:#696ae6}
+.pic2 .lt_info{line-height:20px;color:#9a9aa1;font-size:0.923em;position:relative;}
+.pic2 li .lt_date {display:inline-block;position:relative;margin-left:5px;padding-left:7px}
+.pic2 li .lt_date:before{content:'';position:absolute;top:50%;left:0;margin-top:-1px;width:3px;height:3px;background:#ddd}
+.pic2 li .lt_cmt{position:absolute;top:0;right:0;color:#696ae6}
+.pic2 li.list_0{padding:20px;border-right:1px solid #f2f2f2}
+.pic2 .list_0 .lt_img{position:static;}
+.pic2 .list_0 .lt_img img{width:100%;}
+.pic2 .fa-download{width:16px;height:16px;line-height:16px;background:#e89f31;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;}
+.pic2 .fa-link{width:16px;height:16px;line-height:16px;background:#ad68d8;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;font-weight: normal;}
+.pic2 .fa-heart{width:16px;height:16px;line-height:16px;background:#ff66b0;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;;font-weight: normal;}
+.pic2 .new_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#ffff00;background:#6db142;border-radius:4px;text-align:center;vertical-align:middle;}
+.pic2 .hot_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#fff;background:#e52955;;border-radius:4pxtext-align:center;;vertical-align:middle;font-weight:normal}
+.pic2 .fa-lock{display: inline-block;line-height: 14px;width: 16px;font-size: 0.833em;color: #4f818c;background: #cbe3e8;text-align: center;border-radius: 4px;font-size: 12px;border:1px solid #a2c6ce}
+
+@media (min-width:640px){
+
+    .pic2 li{float:left;width:50%}
+    .pic2 .list_1{border-top:0}
+}           

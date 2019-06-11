@@ -1,0 +1,64 @@
+@charset "utf-8";
+.ol {position:relative;text-align:center;overflow:hidden}
+.ol h2 {width:0;height:0;overflow:hidden}
+
+#ol_before{}
+#ol_submit {width:100%;height:50px;border-radius:33px;font-weight:bold;font-size:1.083em;
+background: #69c9df; /* Old browsers */
+background: -moz-linear-gradient(left, #69c9df 0%, #696ae6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #69c9df 0%,#696ae6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #69c9df 0%,#696ae6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69c9df', endColorstr='#696ae6',GradientType=1 ); /* IE6-9 */}
+#ol_submit:hover{background:#696ae6}
+
+#ol_svc {color:#5d6d89;margin:10px 0;text-align:left}
+#ol_svc:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_svc .agree_ck {display:inline-block;float:left;margin-right:5px;width:19px;height:19px;background:url('./img/chk.png') no-repeat 0 0;vertical-align:top}
+#ol_svc .agree_ck.click_on {background:url('img/chk2.png') no-repeat 0 0}
+#auto_login {position:absolute;top:0;left:0;width:1px;height:1px;opacity:0;outline:0;z-index:9}
+
+.ol_before_btn{margin:15px 0 0;border-top:1px solid #f2f2f2;color:#aaa;line-height:1em}
+.ol_before_btn:after {display:block;visibility:hidden;clear:both;content:""}
+.ol_before_btn a{color:#696ae6;display:inline-block;width:50%;float:left;line-height:60px}
+#ol_password_lost{color:#999}
+
+#ol_before fieldset{padding:30px}
+.id_wr{position:relative;padding-top:10px;}
+.id_wr label{position:absolute;top:5px;left:0;line-height:40px;color:#939393;font-weight:bold;font-size:1.154em}
+input.login_input{background:#fff;border:0;border-bottom:1px solid #e0e1e7;width:100%;height:40px;margin-bottom:30px;font-size:1.154em;font-weight:bold}
+.id_wr .lb_focus{top:0;line-height:15px;font-size:0.92em;}
+.id_wr .login_input:focus{outline:0;border:0 !important;background-color:#fff;border-bottom:1px solid #696ae6 !important;
+-webkit-box-shadow:none;
+-moz-box-shadow: none;
+box-shadow: none}
+
+.login-sns h3{border-top:1px solid #f2f2f2}
+
+#ol_after_hd{padding:30px 0;background: #69c9df; /* Old browsers */
+background: -moz-linear-gradient(left, #69c9df 0%, #696ae6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #69c9df 0%,#696ae6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #69c9df 0%,#696ae6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69c9df', endColorstr='#696ae6',GradientType=1 ); /* IE6-9 */}
+#ol_after_hd strong {display:block;color:#fff;font-size:1.25em}
+#ol_after_hd .profile_img{display:inline-block;position:relative;margin:0 0 10px}
+#ol_after_hd  .profile_img img{border-radius:50%;}
+#ol_after_info{}
+
+#ol_after_private {margin:0;padding:0 20px;list-style:none}
+#ol_after_private:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_private li {;text-align:left;border-top:1px solid #f3f3f3;line-height:55px;position:relative}
+#ol_after_private li:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_private li:first-child{border:0}
+#ol_after_private li i{display:inline-block;width:30px;color:#696ae6;text-align:center;font-size:15px;margin-right:5px}
+#ol_after_private li strong{display:block;float:right;color:#696ae6}
+#ol_after_btn {margin:15px 0}
+#ol_after_btn a{display:inline-block;padding:0 20px;line-height:40px;border-radius:25px;font-weight:bold}
+#ol_after_logout{background:#fff;color:#696ae6;}
+
+@media (min-width: 1200px){
+    .ol{background: #fff; border-radius: 5px; margin:0 0 20px;
+    -webkit-box-shadow: 0 2px 10px #e3e3e3;
+    -moz-box-shadow: 0 2px 10px #e3e3e3;
+    box-shadow: 0 2px 10px #e3e3e3;}
+}
+

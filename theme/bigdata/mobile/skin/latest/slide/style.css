@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* 최근게시물 스킨 (latest) */
+.slide {position:relative}
+.slide .lt_title {line-height: 65px;padding: 0 25px;;border-bottom:1px solid #e8e8e8;font-size: 1.154em;display:block}
+.slide .more {display: inline-block;padding: 0 23px;text-decoration: none;color: #c8c5c3;position: absolute; top: 0;right: 0; line-height: 65px;font-size:18px}
+.slide ul:after {display:block;visibility:hidden;clear:both;content:""}
+.slide li{padding:;width:100%}
+.slide li .li_wr{padding:20px}
+.slide li:first-child{border:0}
+.slide li:hover{background:#f9fbfc}
+.slide li .lt_img{text-align:center}
+.slide li .lt_img img{width:100%;height:auto}
+.slide li .lt_tit{display:block;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;font-size:1.077em;margin:10px 0}
+.slide li .lt_tit:hover{color:#696ae6}
+.slide .lt_info{line-height:20px;color:#9a9aa1;font-size:0.923em;position:relative;}
+.slide li .lt_date {display:inline-block;position:relative;margin-left:5px;padding-left:7px}
+.slide li .lt_date:before{content:'';position:absolute;top:50%;left:0;margin-top:-1px;width:3px;height:3px;background:#ddd}
+.slide li .lt_cmt{position:absolute;top:0;right:0;color:#696ae6}
+.slide .bx-pager{text-align:center;padding-bottom:20px}
+.slide .bx-pager-item{display:inline-block;margin:5px}
+.slide .bx-pager-link{background:#b9b9b9;display:block;border-radius:5px;text-indent:-999px;overflow:hidden;width:6px;height:6px;} 
+.slide .active {background:#696ae6}
+
+.slide .fa-download{width:16px;height:16px;line-height:16px;background:#e89f31;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;}
+.slide .fa-link{width:16px;height:16px;line-height:16px;background:#ad68d8;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;font-weight: normal;}
+.slide .fa-heart{width:16px;height:16px;line-height:16px;background:#ff66b0;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;;font-weight: normal;}
+.slide .new_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#ffff00;background:#6db142;border-radius:4px;text-align:center;vertical-align:middle;}
+.slide .hot_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#fff;background:#e52955;;border-radius:4pxtext-align:center;;vertical-align:middle;font-weight:normal}
+.slide .fa-lock{display: inline-block;line-height: 14px;width: 16px;font-size: 0.833em;color: #4f818c;background: #cbe3e8;text-align: center;border-radius: 4px;font-size: 12px;border:1px solid #a2c6ce}

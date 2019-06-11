@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#bo_cate h2 {width:0;height:0;font-size:0;line-height:0;overflow:hidden}
+#bo_cate {background:#fff;color:#333;
+-webkit-box-shadow0 0 10px #eee ;
+-moz-box-shadow:0 0 10px #eee  ;
+box-shadow: 0 0 10px #eee;
+white-space: nowrap;overflow-x: auto;
+-webkit-overflow-scrolling: touch
+ -ms-overflow-style: -ms-autohiding-scrollbar;}
+#bo_cate::-webkit-scrollbar {display: none;}
+#bo_cate ul{padding:0 10px}
+#bo_cate ul:after {display:block;visibility:hidden;clear:both;content:""} 
+#bo_cate li{display:inline-block;padding:0 15px}
+#bo_cate li a{display:block;line-height:55px;color:#333947}
+#bo_cate #bo_cate_on{position:relative;font-weight:bold}
+#bo_cate #bo_cate_on:before{width:100%;content:'';height:3px;background:#696ae6;position:absolute;bottom:0;left:0}
+
+
+#faq_wrap {margin:20px 0 }
+#faq_wrap h2 {position:absolute;font-size:0;text-indent:-9999em;line-height:0;overflow:hidden}
+.faq_admin {margin:0 5px;text-align:right}
+#faq_wrap p {line-height:1.8em}
+#faq_wrap ol {margin:0;padding:0;list-style:none}
+#faq_wrap  li{margin:0 ;background:#fff;border-bottom:1px solid #eee;}
+#faq_con h3{position:relative;padding:10px;padding-left:40px;}
+#faq_con h3 a {display:block;padding:10px;}
+#faq_con .faq_alp{position:absolute;top:50%;margin-top:-15px;left:10px;display:inline-block;background:#696ae6;border-radius:50%;width:30px;height:30px;line-height:30px;text-align:center;color:#fff}
+#faq_con .faq_alp_a{background:#aaa}
+#faq_con .con_inner {;position:relative;display:none;padding:10px;padding-left:50px;line-height:1.8em;border-top:1px solid #eee;}
+#faq_con .con_closer {margin:10px 0 0;text-align:right}
+#faq_con .closer_btn {margin:0;padding:0 5px;line-height:24px;border:0;background:#666;color:#fff}
+.faq_tolist {padding:0 10px;text-align:right}
+.faq_img {text-align:center}
+
+#faq_sch {text-align:center;margin:10px;position:relative;padding:20px;background:#fff;margin:20px 0 0;border-bottom:1px solid #eee}
+#faq_sch .frm_input {width:100%}
+#faq_sch .btn_submit{position:absolute;top:20px;right:20px;width:40px;height:40px;background:none;color:#000;font-size:15px}
